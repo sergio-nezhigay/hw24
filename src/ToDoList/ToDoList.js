@@ -18,7 +18,6 @@ const ToDoList = () => {
 
   const handleAdd = (e) => {
     e.preventDefault();
-    console.log("handleAdd", e.target.item.value);
     const newTask = {
       id: todos.length + 1,
       task: e.target.item.value,
