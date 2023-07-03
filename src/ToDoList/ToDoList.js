@@ -30,7 +30,7 @@ const ToDoList = () => {
 
   return (
     <div className="smiley-voting-container">
-      <h1>To do List</h1>
+      <h1>To do List.</h1>
 
       {!!todos.length && <ShowList todos={todos} handleVote={handleVote} />}
       <hr />
